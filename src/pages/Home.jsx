@@ -4,7 +4,7 @@ import Bannar from "../components/Bannar";
 
 const Home = () => {
   return (
-    <div>
+    <div id="home">
       <div>
         <Bannar />
       </div>

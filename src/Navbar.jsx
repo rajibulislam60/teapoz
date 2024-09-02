@@ -13,16 +13,21 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#194A33] py-[22px]">
+    <div className="sticky top-0 bg-[#194A33] py-[22px] z-50">
       <Container>
         <div className="flex items-center justify-between">
           <div className="text-white flex gap-[150px] items-center">
             <img src={LogoImg} alt="Logo Image" />
             <div>
-              <ul>
+              <ul className="flex gap-6">
                 <li className="text-4 font-semibold leading-[24px] hover:text-primary duration-[0.4s]">
                   <a href="#home" onClick={closeMenu}>
                     HOME
+                  </a>
+                </li>
+                <li className="text-4 font-semibold leading-[24px] hover:text-primary duration-[0.4s]">
+                  <a href="#about" onClick={closeMenu}>
+                    ABOUT
                   </a>
                 </li>
               </ul>
