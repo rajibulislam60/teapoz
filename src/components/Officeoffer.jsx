@@ -11,7 +11,7 @@ import { FaHeadset } from "react-icons/fa";
 
 const Officeoffer = () => {
   return (
-    <div className="py-[70px]">
+    <div className="py-[70px] border-b">
       <Container>
         <div className="flex gap-[90px]">
           <div className="flex gap-[90px] items-center text-center">

@@ -21,7 +21,7 @@ const Navbar = () => {
             <div>
               <ul className="flex gap-6">
                 <li className="text-4 font-semibold leading-[24px] hover:text-primary duration-[0.4s]">
-                  <a href="#home" onClick={closeMenu}>
+                  <a href="#home" onClick={closeMenu} item="Home" to="/">
                     HOME
                   </a>
                 </li>
