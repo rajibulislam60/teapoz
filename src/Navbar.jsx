@@ -3,6 +3,7 @@ import Container from "./components/Container";
 import LogoImg from "./components/images/logo.png";
 import { FaSearch } from "react-icons/fa";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const closeMenu = () => onClick(false);
@@ -21,14 +22,14 @@ const Navbar = () => {
             <div>
               <ul className="flex gap-6">
                 <li className="text-4 font-semibold leading-[24px] hover:text-primary duration-[0.4s]">
-                  <a href="#home" onClick={closeMenu} item="Home" to="/">
+                  <Link onClick={closeMenu} to="/">
                     HOME
-                  </a>
+                  </Link>
                 </li>
-                <li className="text-4 font-semibold leading-[24px] hover:text-primary duration-[0.4s]">
-                  <a href="#about" onClick={closeMenu}>
-                    ABOUT
-                  </a>
+                <li className="uppercase text-4 font-semibold leading-[24px] hover:text-primary duration-[0.4s]">
+                  <Link onClick={closeMenu} to="/aboutus">
+                    About us
+                  </Link>
                 </li>
               </ul>
             </div>
