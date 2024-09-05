@@ -2,10 +2,9 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Navbar from './Navbar';
 import Home from './pages/Home';
-import About from './pages/About';
-import Taste from './components/Taste';
-import Footer from './pages/Footer';
+
 import AboutUs from './outterPage/AboutUs';
+import Blog from './outterPage/Blog';
 
 
 const Layout = () => (
@@ -25,10 +24,13 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "blog",
+        element: <Blog />,
+      },
+      {
         path: "aboutus",
         element: <AboutUs />,
       },
-      
     ],
   },
 ]);

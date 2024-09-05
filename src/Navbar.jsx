@@ -27,6 +27,11 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="uppercase text-4 font-semibold leading-[24px] hover:text-primary duration-[0.4s]">
+                  <Link onClick={closeMenu} to="/blog">
+                    Blog
+                  </Link>
+                </li>
+                <li className="uppercase text-4 font-semibold leading-[24px] hover:text-primary duration-[0.4s]">
                   <Link onClick={closeMenu} to="/aboutus">
                     About us
                   </Link>
