@@ -13,7 +13,7 @@ const Category = () => {
       <div className="mb-[120px]">
         <Container>
           <div>
-            <div className="text-center">
+            <div data-aos="fade-up" className="text-center">
               <h2 className="text-[50px] font-semibold leading-[54px] text-[#194a33]">
                 Browse by Category
               </h2>
@@ -22,7 +22,7 @@ const Category = () => {
                 <IoIosArrowForward />
               </div>
             </div>
-            <div className="flex flex-wrap justify-between ">
+            <div data-aos="fade-up" className="flex flex-wrap justify-between ">
               <CategoryItem src={CategoryImg1} name="Organic Teas" />
               <CategoryItem src={CategoryImg2} name="Iced Teas" />
               <CategoryItem src={CategoryImg3} name="Tea Bags" />

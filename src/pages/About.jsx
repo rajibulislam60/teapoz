@@ -5,7 +5,7 @@ import Button from '../components/Button';
 const About = ()=> {
     return (
       <div
-        id="about"
+        data-aos="fade-up"
         className="bg-[url('/about.jpg')] bg-cover bg-center py-[100px] "
       >
         <Container>

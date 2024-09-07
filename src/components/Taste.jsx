@@ -4,10 +4,10 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Taste = () => {
   return (
-    <div className="mt-[50px] mb-[100px]">
+    <div data-aos="fade-up" className="mt-[50px] mb-[100px]">
       <Container>
         <div className="bg-[url('/taste.jpg')] bg-cover bg-center py-[50px] ">
-          <div className='ml-[300px]'>
+          <div className="ml-[300px]">
             <h3 className="w-[350px] text-[40px] font-semibold leading-[48px]">
               Exquisite Taste, Refreshing Blends.
             </h3>
