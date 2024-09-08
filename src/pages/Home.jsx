@@ -7,6 +7,8 @@ import Category from "./Category";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Ecommarce from "./Ecommarce";
+import TripArea from "./TripArea";
+import Brand from "./Brand";
 
 
 const Home = () => {
@@ -26,6 +28,8 @@ const Home = () => {
         <Ecommarce/>
         <Taste />
         <Category/>
+        <TripArea/>
+        <Brand/>
         <Footer />
       </div>
     </div>
