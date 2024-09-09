@@ -5,6 +5,8 @@ import Home from './pages/Home';
 
 import AboutUs from './outterPage/AboutUs';
 import Blog from './outterPage/Blog';
+import Shop from './outterPage/Shop';
+import Contact from './outterPage/Contact';
 
 
 const Layout = () => (
@@ -24,12 +26,20 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "/shop",
+        element: <Shop />,
+      },
+      {
         path: "blog",
         element: <Blog />,
       },
       {
         path: "aboutus",
         element: <AboutUs />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
     ],
   },

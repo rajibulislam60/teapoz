@@ -9,7 +9,7 @@ import BrandImg6 from "./../components/images/brand6.jpg";
 
 const Brand = () => {
   return (
-    <div data-aos="fade-up" className="bg-[#194A33] py-[80px] mb-[100px]">
+    <div data-aos="fade-up" className="bg-[#194A33] py-[80px]">
       <Container>
         <div>
           <h3 className="text-[32px] font-bold leading-[38px] text-white text-center mb-[50px]">Popular Tea Brands</h3>

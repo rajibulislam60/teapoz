@@ -9,6 +9,8 @@ import "aos/dist/aos.css";
 import Ecommarce from "./Ecommarce";
 import TripArea from "./TripArea";
 import Brand from "./Brand";
+import Crafted from "./Crafted";
+import Customer from "./Customer";
 
 
 const Home = () => {
@@ -30,6 +32,8 @@ const Home = () => {
         <Category/>
         <TripArea/>
         <Brand/>
+        <Crafted/>
+        <Customer/>
         <Footer />
       </div>
     </div>

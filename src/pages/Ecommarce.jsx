@@ -9,8 +9,22 @@ import CartImg6 from "./../components/images/cart6.jpg";
 import CartImg7 from "./../components/images/cart7.jpg";
 import CartImg8 from "./../components/images/cart8.jpg";
 import Ecart from "../components/Ecart";
+import Slider from "react-slick";
 
 const Ecommarce = () => {
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    rows: 2,
+
+  };
+
   return (
     <div data-aos="fade-up" className="py-[68px] relative">
       <Container>
@@ -21,7 +35,8 @@ const Ecommarce = () => {
             </h2>
           </div>
           <div>
-            <div className="flex flex-wrap justify-between">
+            <Slider {...settings}>
+
               <Ecart
                 src={CartImg1}
                 name="Earl Gray Dragonfly Tea"
@@ -54,7 +69,9 @@ const Ecommarce = () => {
                 name="Wellbeing Gift Set 3-piece"
                 price="29.99"
               />
-            </div>
+
+            </Slider>
+            
           </div>
         </div>
       </Container>
