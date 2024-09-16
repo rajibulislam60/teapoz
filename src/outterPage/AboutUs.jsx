@@ -5,7 +5,7 @@ import Footer from '../pages/Footer';
 
 const AboutUs = () => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <AboutUsH/>
       <AboutUsT/>
       <Footer/>

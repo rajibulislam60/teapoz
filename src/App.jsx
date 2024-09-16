@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Navbar from './Navbar';
 import Home from './pages/Home';
@@ -7,6 +7,8 @@ import AboutUs from './outterPage/AboutUs';
 import Blog from './outterPage/Blog';
 import Shop from './outterPage/Shop';
 import Contact from './outterPage/Contact';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 const Layout = () => (
@@ -46,6 +48,14 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+      mirror: true,
+    });
+  });
 
   return (
     <div>

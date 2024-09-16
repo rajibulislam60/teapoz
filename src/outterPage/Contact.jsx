@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div data-aos="fade-up">
       <ContactH />
       <Container>
         <div className="mt-[68px] mb-[140px]">

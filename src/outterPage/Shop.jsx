@@ -21,7 +21,7 @@ const Shop = () => {
   };
 
   return (
-    <div>
+    <div data-aos="fade-up">
       <ShopH />
       <Container>
         <div>

@@ -11,7 +11,7 @@ import Container from '../components/Container';
 
 const Blog = () => {
   return (
-    <div>
+    <div data-aos="fade-up">
       {/* <div className="bg-[url('/blogT.jpg')] bg-cover bg-center py-[50px]"></div> */}
       <Container>
         <div className='mt-[30px] mb-[30px]'>
